@@ -1,0 +1,317 @@
+body{
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+
+}
+.mass {
+    text-align:left;
+    padding: 40px 30px;
+    background: fixed;
+    color: black;
+
+}
+
+.mass .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: aliceblue;
+    color: #2F80ED;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.mass .btn:hover{
+    background-color: aliceblue;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 30px;
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    gap: 30px;
+    height: 40px;
+}
+
+.navleft {
+display: flex;
+align-items: center;
+gap: 20px;
+
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.navleft img{
+    display: flex;
+    height: 60px;
+    width: 50px;
+}
+.brandname {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.motto{
+   
+    font-size: 15px;
+    margin-top: 2px;
+    display: block;
+}
+
+.brandtext{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+.navright{
+    margin-left: 800px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 40px;
+    /* background-color: dark purple; */
+    text-decoration: none;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navright a{
+    text-decoration: none;
+    color: black;
+}
+
+.super{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 0 30px;
+    /* text-align: center; */
+}
+
+.superhero{
+    /* font-size: 10px; */
+    color: black;
+    margin: 10px;
+}
+
+.head{
+    padding: 30px;
+    gap: 30px;
+    text-align: center;
+}
+
+.main{
+    display:flex;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sub{
+    background-color: whitesmoke;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    gap: 30px;
+    flex-wrap: wrap;
+   
+}
+
+.sub:hover{
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+}
+
+.superhero{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1)
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.aboutus{
+    padding: 30px;
+}
+
+.contact{
+    background: linear-gradient(to right, #f8fbff,#e4f0ff);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.contacting{
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 18 px rgba(0, 0, 0, 0.1);
+}
+
+.btm{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2F80ED;
+    border-radius: 18px;
+    padding: 12px 28px;
+
+}
+
+.btm:hover{
+    background-color: #0056b3;
+}
+
+.exp{
+    color: whitesmoke;
+    font-family: Arial;
+    background-color: dodgerblue;
+    padding: 12px 20px;
+    border-radius: 20px;
+}
+
+.exp:hover{
+    background-color: steelblue;
+}
+
+.heroimage{
+    flex: 1;
+    min-width: 0;
+}
+
+.heroimage img{
+    width: 100%;
+    max-width: none;
+    height: 500px;
+    display: block;
+}
+
+.why{
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.reason{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.reasons{
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 250px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    border: 1px;
+
+}
+
+.section{
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+
+}
+
+.section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 500px;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.section input,
+.section textarea{
+    padding: 12px 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.section button{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.section button:hover{
+    background-color: skyblue;
+}
+
+.section a{
+    text-decoration: none;
+}
+.s{
+    background-color: whitesmoke;
+    color: black;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: verdana;
+}
+
+.superhero h1{
+    font-family: 'Trebuchet MS';
+}
+
+.aboutus h1{
+    font-family: 'Trebuchet MS';
+}
+
+.contacting h1{
+    font-family: 'Trebuchet MS';
+}
+
+.head h2{
+    font-family: 'Trebuchet MS';
+}
+
+.sub h3{
+    font-family: arial;
+}
+
+.why h2{
+    font-family: 'Trebuchet MS';
+}
+
+.section h2{
+    font-family: 'Trebuchet MS';
+}
+
+.brandname{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bolder;
+}
+
+html{
+    scroll-behavior: smooth;
+}
